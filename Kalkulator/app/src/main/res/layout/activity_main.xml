@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/colorBiru"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+
+
+        android:text="KALKULATOR"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"
+
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="150dp"
+            android:text="ANGKA KE 1 : "
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/angka1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="150dp"
+            android:text="ANGKA KE 2 : "
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/angka2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:textColor="@color/white"
+            android:inputType="textMultiLine"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/tblHitung"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:text="HITUNG"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:onClick="hitung"
+        android:textColor="@color/colorBiru"
+        android:backgroundTint="@color/white"
+
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textHasil"
+            android:layout_width="150dp"
+            android:text="HASIL : "
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/hasilhitung"
+            android:layout_width="150dp"
+
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+</LinearLayout>
