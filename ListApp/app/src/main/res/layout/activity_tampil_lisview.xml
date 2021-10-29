@@ -12,7 +12,7 @@
         android:text="Daftar Buah"
         android:gravity="center"
         android:textSize="30dp"
-        android:textColor="@color/colorKuning"
+        android:textColor="@color/colorPutih"
         android:background="@color/colorAccent"
         android:layout_height="wrap_content"/>
 
