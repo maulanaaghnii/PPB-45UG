@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerViewRestaurantMenu</string>
+    <string name="food_name">Food Name</string>
+    <string name="detail">Detail</string>
+    <string name="drink_name">Drink Name</string>
+    <string name="price">Price</string>
+</resources>
